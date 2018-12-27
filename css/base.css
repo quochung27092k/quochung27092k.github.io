@@ -21,8 +21,7 @@
 	clear: both;
 }
 body {
-	background: #cfd8dc;
-	color: #37474f;
+	color: #FFFFFF;
 	font-weight: 400;
 	font-size: 1em;
 	font-family: 'Raleway', Arial, sans-serif;
@@ -97,7 +96,7 @@ a:focus {
 	font-size: 40%;
 	letter-spacing: 0;
 	padding: 0.5em 0 1em 0;
-	color: #A8B3B8;
+	color: #FFFFFF;
 }
 
 /* Top Navigation Style */

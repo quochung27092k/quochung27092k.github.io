@@ -13,16 +13,30 @@
 		<link rel="stylesheet" type="text/css" href="css/vicons-font.css" />
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+		<style>
+		body,html {
+		height: 100%;
+  margin: 0;
+		}
+		.bg {
+  background-image: url("img/Background.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+		</style>
 	</head>
-	<body background="img/Background.png">
+	<body>
+	<div class="bg">
 		<div class="container">
 		<header class="codrops-header">
 				<h1>Anh có điều muốn nói rằng, anh ...<span>anh ... yêu em rất nhiều 💖</span></h1>
 			</header>
 			<section class="content">
 					<div class="box bg-3">
-					<button class="button button--wapasha button--round-l button--text-thick button--inverted"><a href="1.html">Thư tỏ tình</a></button>
-					<button class="button button--wapasha button--round-l button--text-thick button--inverted"><a href="2.html">Mời xem phim</a></button>
+					<button class="button button--wapasha button--round-l button--text-thick button--inverted" onclick="window.location.href='1.html'">Thư tỏ tình</button>
+					<button class="button button--wapasha button--round-l button--text-thick button--inverted" onclick="window.location.href='2.html'">Mời xem phim</button>
 				</div>
 			</section>
 		</div><!-- /container -->
@@ -34,5 +48,6 @@
 				}
 			})();
 		</script>
+		</div>
 	</body>
 </html>

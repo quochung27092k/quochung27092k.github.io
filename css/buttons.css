@@ -8,7 +8,6 @@
 	color: #ECEFF1;
 }
 .bg-3 {
-	background: #37474f;
 	color: #fff;
 }
 
@@ -37,14 +36,6 @@
 }
 
 /* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari) */
-.bg-1 .button {
-	color: #37474f;
-	border-color: #37474f;
-}
-.bg-2 .button {
-	color: #ECEFF1;
-	border-color: #ECEFF1;
-}
 .bg-3 .button {
 	color: #fff;
 	border-color: #fff;
@@ -100,14 +91,14 @@
 
 /* Wapasha */
 .button.button--wapasha {
-	background: #37474f;
+	background: #E56B68;
 	color: #fff;
 	-webkit-transition: background-color 0.3s, color 0.3s;
 	transition: background-color 0.3s, color 0.3s;
 }
 .button--wapasha.button--inverted {
 	background: #fff;
-	color: #37474f;
+	color: #E56B68;
 }
 .button--wapasha::before {
 	content: '';
@@ -116,7 +107,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: 2px solid #3f51b5;
+	border: 2px solid #E56B68;
 	z-index: -1;
 	border-radius: inherit;
 	opacity: 0;
@@ -128,15 +119,15 @@
 	transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 }
 .button--wapasha.button--inverted::before {
-	border-color: #7986cb;
+	border-color: #E56B68;
 }
 .button--wapasha:hover {
 	background-color: #fff;
-	color: #3f51b5;
+	color: #E56B68;
 }
 .button--wapasha.button--inverted:hover {
-	background-color: #37474f;
-	color: #7986cb;
+	background-color: #CA101C;
+	color: #E56B68;
 }
 .button--wapasha:hover::before {
 	-webkit-transform: scale3d(1, 1, 1);
